@@ -15,9 +15,9 @@ export default defineConfig({
             buildCoreCssAsAsset:false,
             icons:{
                 '\0default_lib':'sfsymbols',
-                'ionicons': ['/Volumes/Data/Documents/IonIcons/ionicons/src/svg', 
+                'ionicons': [path.join(__dirname,'/lib/icons/ionicons'), 
                     'add,accessibility,airplane,airplane-outline,bag-add'],
-                'sfsymbols': ['/Volumes/Data/Documents/SfSymbols/symbols',
+                'sfsymbols': [path.join(__dirname,'/lib/icons/sfsymbols'),
                     ['eraser,cloud.heavyrain.circle,bolt.shield.fill,graduationcap.fill',
                         'scribble', 'person.2.wave.2.fill'
                     ].join(',')
