@@ -1,0 +1,13 @@
+{
+    "name": "vite-consume",
+    "license":"MIT",
+    "type":"module",
+    "dependencies": {
+        "vite": "^5.4.8",
+        "vue": "^3.5.11"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.4",
+        "fs": "^0.0.1-security"
+    }
+}

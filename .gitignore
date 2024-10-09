@@ -1,0 +1,5 @@
+lib/icons/ionicons
+lib/icons/*
+node_modules/*
+yarn*
+dist/*
